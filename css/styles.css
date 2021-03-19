@@ -1,0 +1,35 @@
+body {
+    background-color: #2a273f;
+    color: #e0def4;
+    font-family: 'Nunito', sans-serif;
+}
+
+#navMenu {
+    display: inline;
+    text-decoration: none;
+}
+
+#navMenu li {
+	display: inline-block;
+    margin-right: 50px;
+}
+
+#navMenu a {
+	padding: 1px;
+	text-decoration-line: none;
+    color: #e0def4;
+}
+
+#navMenu a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: #e0def4;
+}
+
+a:visited {
+    color: #e0def4;
+}
+
+.createButtonStyled {
+    color: #eb6f92;
+}
