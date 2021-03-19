@@ -7,10 +7,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
   <title>Notes</title>
 </head>
-<body>
-  <div>
-    <h1>Assignment 1</h1>
-    <p>Initial</p>
-  </div>
+<body class="mainGrid">
+    <header>
+        <ul id="navMenu">
+            <li><a href=about.html>about</a></li>
+            <li><a href=docs.html>docs</a></li>
+        </ul>
+    </header>
+    <div class="createButton">
+        <button class="createButtonStyled" type="button">+</button>
+    </div>
+    <div class="note">
+        <textarea rows="10" cols="50">new note</textarea>
+    </div>
+    <div class="saveButton">
+        <button class="saveButtonStyled" type="button">save</button>
+    </div>
+    <div class="deleteButton">
+        <button class="deleteButtonStyled" type="button">delete</button>
+    </div>
+    <div class="sideNav">
+        <div class="navButton">
+            <button class="navButtonStyled" type="button"><<</button>
+            <ul class="sideNavList">my notes
+                <li>note 2</li>
+                <li>note 1</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer id="foot">created by Markus</footer>
 </body>
 </html>

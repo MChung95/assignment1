@@ -22,7 +22,6 @@ body {
 
 #navMenu a:hover {
     text-decoration-line: underline;
-    text-decoration-style: wavy;
     color: #e0def4;
 }
 
@@ -30,6 +29,32 @@ a:visited {
     color: #e0def4;
 }
 
+textarea {
+    background-color: #59546d;
+    color: #e0def4;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 2px solid #393552;
+}
+
 .createButtonStyled {
+    background-color: #59546d;
+    color: #9ccfd8;
+}
+
+.saveButtonStyled {
+    background-color: #59546d;
+    color: #9ccfd8;
+}
+
+.deleteButtonStyled {
+    background-color: #59546d;
     color: #eb6f92;
+}
+
+.navButtonStyled {
+    background-color: #59546d;
+    color: #e0def4;
 }
