@@ -7,15 +7,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
   <title>Notes</title>
 </head>
-<body class="mainGrid">
-    <header>
-        <ul id="navMenu">
+<body class="notesGrid">
+    <nav class="header">
+        <ul class="topNav">
             <li><a href=about.html>about</a></li>
             <li><a href=docs.html>docs</a></li>
         </ul>
-    </header>
+    </nav>
     <div class="createButton">
-        <button class="createButtonStyled" type="button">+</button>
+        <button class="createButtonStyled" type="button">+ create new note</button>
     </div>
     <div class="note">
         <textarea rows="10" cols="50">new note</textarea>
@@ -26,15 +26,17 @@
     <div class="deleteButton">
         <button class="deleteButtonStyled" type="button">delete</button>
     </div>
-    <div class="sideNav">
+    <nav class="side">
         <div class="navButton">
             <button class="navButtonStyled" type="button"><<</button>
-            <ul class="sideNavList">my notes
-                <li>note 2</li>
-                <li>note 1</a></li>
-            </ul>
         </div>
-    </div>
-    <footer id="foot">created by Markus</footer>
+        <ul class="sideNavList">my notes
+            <li><a href=note_1.html></a>note 1</li>
+            <li><a href=note_2.html></a>note 2</li>
+        </ul>
+    </nav>
+    <footer class="foot">
+        <p>created by Markus</p>
+    </footer>
 </body>
 </html>
